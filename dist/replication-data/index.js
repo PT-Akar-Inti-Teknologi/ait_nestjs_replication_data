@@ -16,6 +16,7 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
 Object.defineProperty(exports, "__esModule", { value: true });
 __exportStar(require("./admins-users"), exports);
 __exportStar(require("./interface/replication-data-config.interface"), exports);
+__exportStar(require("./strategy/jwt.strategy"), exports);
 __exportStar(require("./permissions"), exports);
 __exportStar(require("./replication-data.module"), exports);
 //# sourceMappingURL=index.js.map
