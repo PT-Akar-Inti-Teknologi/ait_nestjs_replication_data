@@ -4,6 +4,11 @@ This library contains common utilities that can be used to kickstart nestjs proj
 
 ## How to install
 
+- Install [AIT base module](https://github.com/PT-Akar-Inti-Teknologi/ait_nestjs_base) (min. version 1.0.8), also follow the setup guide:
+```
+yarn add https://github.com/PT-Akar-Inti-Teknologi/ait-nestjs-base.git#tags/v1.0.8
+```
+- Install this module:
 ```
 yarn add https://github.com/PT-Akar-Inti-Teknologi/ait_nestjs_replication_data.git#tags/v1.0.0
 ```
