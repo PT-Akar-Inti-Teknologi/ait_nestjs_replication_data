@@ -78,5 +78,12 @@
     "roots": [
       "<rootDir>/libs/"
     ]
-  }
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.jetbrains.space/akarinti/p/main/npm/"
+  },
+  "files": [
+    "dist/**"
+  ]
 }
