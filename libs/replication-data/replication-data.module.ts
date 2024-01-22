@@ -19,7 +19,7 @@ export class AitReplicationDataModule {
             module: PermissionsModule,
           },
           {
-            path: apiPrefix + '/admins/users',
+            path: apiPrefix + '/admins-users',
             module: AdminsUsersModule,
           },
         ]),

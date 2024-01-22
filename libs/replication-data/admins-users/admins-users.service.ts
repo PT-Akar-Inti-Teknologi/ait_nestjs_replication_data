@@ -39,8 +39,11 @@ export class AdminsUsersService extends BaseService<
   }
 
   public async save(createDTO: SaveAdminsUserDTO): Promise<AdminsUserDocument> {
-    const savePermission: SavePermissionDTO = createDTO.role.permissions;
-    await this.authPermissionService.save(savePermission);
+    const savePermission: SavePermissionDTO | undefined =
+      createDTO.role?.permissions;
+    if (savePermission) {
+      await this.authPermissionService.save(savePermission);
+    }
     return this.baseSave(createDTO);
   }
 
